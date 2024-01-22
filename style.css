@@ -5,6 +5,10 @@ html {
     scroll-behavior: smooth;
   }
 
+.nav-bar {
+    padding: 0;
+}
+
 .logo-netflix {
     width: 100px;
     height: 50px;
@@ -38,7 +42,6 @@ html {
     border: 1px solid rgb(121, 117, 117);
     margin-left: 50px;
     color: white;
-    padding: 2%;
     width: 120px;
 }
 
@@ -58,7 +61,7 @@ html {
 }
 
 .row {
-    margin: 5px 5px 5px -25px;
+    margin: 5px 5px 5px -5px;
     padding-bottom: 15px;
 }
 
@@ -69,3 +72,25 @@ html {
     margin: -5px;
     transform: scale(1.2);
   }
+
+footer {
+   margin: 30px -234px 5px -8px;
+   
+}
+
+#social {
+    margin: 5px;
+    color: grey;
+}
+
+div.lastbutton {
+    width: 120px;
+    height:30px;
+    margin: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    border: solid whitesmoke;
+    border-width: 0.2px;
+    color: rgba(245, 245, 245, 0.797)
+}
